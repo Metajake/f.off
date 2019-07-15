@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "F. Off",
+  "version": "0.1",
+  "version_name": "0.1 beta carotine"
+  "description": "Pepper spray for attention span rapists. Hides Twitter Promoted Posts, Promoted Account recommendations, and Random Tweets from Accounts followed by Accounts you follow.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["jquery.js", "fuckoff.js"]
+    }
+  ],
+  "icons": {
+    "48":"iconx48.png",
+    "96":"iconx96.png"
+  },
+  "developer": {
+    "name": "Jacob North",
+    "url": "http://firststudio.co"
+  }
+
+}
