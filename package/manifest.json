@@ -1,8 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "F. Off",
+  "name": "F Off",
   "version": "0.1",
-  "version_name": "0.1 beta carotine"
   "description": "Pepper spray for attention span rapists. Hides Twitter Promoted Posts, Promoted Account recommendations, and Random Tweets from Accounts followed by Accounts you follow.",
   "content_scripts": [
     {
